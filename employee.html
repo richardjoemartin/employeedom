@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="row">
+    </div>
+    
+    <div class="col-4 p-5">
+        
+            <input id="emp" type="text" class="form-control mb-2" placeholder="Searchid">
+            <button class="btn btn-primary" type="button" onclick="search()">search</button>
+        
+        <div id="result">
+
+        </div>
+    </form>
+    </div>
+
+        <div class="col-4"></div>
+        <form class="col-4 bg-light m-5 p-5 border border-2 shadow-1g rounded">
+            <h1 class="mb-4">EmployeeDetails</h1>
+            <input type="text"id="empid" class="form-control mb-2" placeholder="Employee Id">
+            <input type="text"id="empname" class="form-control mb-2" placeholder="Employee Name">
+            <input type="text"id="empaddr" class="form-control mb-2" placeholder="Employee Address">
+            <input type="text"id="empdesg" class="form-control mb-2" placeholder="Employee Designation">
+            <input type="text"id="empexp" class="form-control mb-2" placeholder="Employee Experience">
+            <input type="text"id="empsal" class="form-control mb-2" placeholder="Employee Salary">
+            <button class="btn btn-info mt-4" onclick="addEmployee()">Add Employee</button>
+        </form>
+      
+    
+</body>
+<script src="./employee.js"> </script>
+</html>
